@@ -85,7 +85,7 @@ const App = () => {
 const buttonConfig = (isReact = false) => {
     return isReact
         ? `button: {
-                    backgroundColor: "#3B81F6",
+                    backgroundColor: "#46bfff",
                     right: 20,
                     bottom: 20,
                     size: 48, // small | medium | large | number
@@ -99,7 +99,7 @@ const buttonConfig = (isReact = false) => {
                         },
                 }`
         : `button: {
-                backgroundColor: "#3B81F6",
+                backgroundColor: "#46bfff",
                 right: 20,
                 bottom: 20,
                 size: 48, // small | medium | large | number
@@ -156,7 +156,7 @@ const chatwindowConfig = (isReact = false) => {
                         avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
                     },
                     userMessage: {
-                        backgroundColor: "#3B81F6",
+                        backgroundColor: "#46bfff",
                         textColor: "#ffffff",
                         showAvatar: true,
                         avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
@@ -165,7 +165,7 @@ const chatwindowConfig = (isReact = false) => {
                         placeholder: 'Type your question',
                         backgroundColor: '#ffffff',
                         textColor: '#303235',
-                        sendButtonColor: '#3B81F6',
+                        sendButtonColor: '#46bfff',
                         maxChars: 50,
                         maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
                         autoFocus: true, // If not used, autofocus is disabled on mobile and enabled on desktop. true enables it on both, false disables it on both.
@@ -176,12 +176,6 @@ const chatwindowConfig = (isReact = false) => {
                     },
                     feedback: {
                         color: '#303235',
-                    },
-                    footer: {
-                        textColor: '#303235',
-                        text: 'Powered by',
-                        company: 'Flowise',
-                        companyLink: 'https://flowiseai.com',
                     }
                 }`
         : `chatWindow: {
@@ -206,7 +200,7 @@ const chatwindowConfig = (isReact = false) => {
                     avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
                 },
                 userMessage: {
-                    backgroundColor: "#3B81F6",
+                    backgroundColor: "#46bfff",
                     textColor: "#ffffff",
                     showAvatar: true,
                     avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
@@ -215,7 +209,7 @@ const chatwindowConfig = (isReact = false) => {
                     placeholder: 'Type your question',
                     backgroundColor: '#ffffff',
                     textColor: '#303235',
-                    sendButtonColor: '#3B81F6',
+                    sendButtonColor: '#46bfff',
                     maxChars: 50,
                     maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
                     autoFocus: true, // If not used, autofocus is disabled on mobile and enabled on desktop. true enables it on both, false disables it on both.
@@ -226,12 +220,6 @@ const chatwindowConfig = (isReact = false) => {
                 },
                 feedback: {
                     color: '#303235',
-                },
-                footer: {
-                    textColor: '#303235',
-                    text: 'Powered by',
-                    company: 'Flowise',
-                    companyLink: 'https://flowiseai.com',
                 }
             }`
 }
